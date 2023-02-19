@@ -5,19 +5,19 @@ Discount = 0
 
 
 if Price <= 10:
-   Discount = 0.10
+    Discount = 0.10
   
 elif Price <= 20:
-   Discount = 0.15
+    Discount = 0.15
   
 elif Price <= 40:
-   Discount = 0.20
+    Discount = 0.20
   
 elif Price <= 70:
-   Discount = 0.25
+    Discount = 0.25
   
 elif Price >= 100:
-   Discount = 0.30
+    Discount = 0.30
   
 Discount_Percentage = Discount * 100
 Discount_Percentage = f"{Discount_Percentage}%"
